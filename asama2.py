@@ -10,7 +10,6 @@ from picamera2 import Picamera2
 
 class ImhaSystem:
     def __init__(self, resolution=(640, 480)):
-        # GPIO ve donanım ayarları
         GPIO.cleanup()
         GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BOARD)

@@ -11,7 +11,6 @@ from picamera2 import Picamera2
 
 class Qr2System:
     def __init__(self, resolution=(640, 480)):
-        # GPIO Ayarları
         GPIO.cleanup()
         GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BOARD)
